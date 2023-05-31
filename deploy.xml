@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy>
+    <version>0.1</version>
+    <description>Et plugin til Spatial suite, som tilføjer tastaturgenveje til portalen.</description>
+
+    <makedir dir="[cbinfo.wwwroot.dir]/modules/sps_hotkeys/js"/>
+    <copydir fromdir="[module:sps_hotkeys.dir]/js" todir="[cbinfo.wwwroot.dir]/modules/sps_hotkeys/js" replacetext="true" />
+    
+</deploy>

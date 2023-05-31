@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tool type="plugin">
+
+    <requires>
+        <file type="script" name="/modules/sps_hotkeys/js/hotkeys.js" priority="1" charset="utf-8" />
+    </requires>
+
+    <src>
+        <![CDATA[
+            addHotkeys()
+        ]]>
+    </src>
+</tool>
